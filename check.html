@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Hobbies - Steve</title>
+  <meta name="description" content="Discover hobbies such as photography, hiking, cooking, and painting on Grace's website. Click to explore more!">
+  <meta name="keywords" content="hobbies, photography, hiking, cooking, painting, explore, Grace's website">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    /* Hide text and images when viewing source code */
+    img, .details {
+      visibility: hidden;
+    }
+
+    /* Ensure they are visible on render */
+    body * {
+      visibility: visible !important;
+    }
+
+    /* Limit the initial text shown */
+    .details p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-height: 1.2em;
+    }
+
+    .details.show-more p {
+      white-space: normal;
+      max-height: none;
+    }
+
+    /* Style for "Read more..." */
+    .read-more {
+      color: #007bff;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .hobby {
+      margin-bottom: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Grace</a></h1>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="referee.html">Referee</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="documents.html">Documents</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="active" href="hobbies.html">Hobbies</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Hobbies Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Blog</h2>
+        </div>
+
+        <div class="container1">
+          <!-- Photography -->
+          <div class="hobby">
+            <img src="assets/img/testimonials/testimonials-2.jpg" alt="Photography" style="width:100%;">
+            <div class="details">
+              <h2>Photography</h2>
+              <p>Photography is a wonderful hobby that allows you to capture and preserve moments in time. It requires a good eye for composition, lighting, and subject matter. Whether you prefer landscape, portrait, or street photography, there is always something new to learn and explore.</p>
+              <span class="read-more" onclick="toggleDetails(this)">Read more...</span>
+            </div>
+          </div>
+
+          <!-- Hiking -->
+          <div class="hobby">
+            <img src="assets/img/testimonials/testimonials-2.jpg" alt="Hiking" style="width:100%;">
+            <div class="details">
+              <h2>Hiking</h2>
+              <p>Hiking is a great way to stay fit and enjoy the great outdoors. It provides an excellent opportunity to explore nature, enjoy scenic views, and experience the physical challenge of traversing different terrains. From easy walks to challenging mountain trails, hiking offers something for everyone.</p>
+              <span class="read-more" onclick="toggleDetails(this)">Read more...</span>
+            </div>
+          </div>
+
+          <!-- Cooking -->
+          <div class="hobby">
+            <img src="assets/img/testimonials/testimonials-2.jpg" alt="Cooking" style="width:100%;">
+            <div class="details">
+              <h2>Cooking</h2>
+              <p>Cooking is not just a necessity but also a creative and rewarding hobby. Experimenting with different recipes and ingredients can be a lot of fun. Cooking allows you to create delicious meals, explore new cuisines, and even improve your overall health through mindful eating.</p>
+              <span class="read-more" onclick="toggleDetails(this)">Read more...</span>
+            </div>
+          </div>
+
+          <!-- Painting -->
+          <div class="hobby">
+            <img src="assets/img/testimonials/testimonials-2.jpg" alt="Painting" style="width:100%;">
+            <div class="details">
+              <h2>Painting</h2>
+              <p>Painting is a fantastic way to express your creativity and relax. Whether you prefer watercolors, acrylics, or oils, painting can help you develop your artistic skills and create beautiful works of art. It's also a great way to unwind and de-stress after a busy day.</p>
+              <span class="read-more" onclick="toggleDetails(this)">Read more...</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Steve</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Custom JS for Toggle Functionality -->
+  <script>
+    function toggleDetails(element) {
+      const details = element.previousElementSibling;
+      details.style.whiteSpace = details.style.whiteSpace === 'normal' ? 'nowrap' : 'normal';
+      element.textContent = details.style.whiteSpace === 'normal' ? 'Show less' : 'Read more...';
+    }
+  </script>
+
+</body>
+
+</html>
