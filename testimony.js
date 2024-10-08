@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
       <div class="swiper-slide">
         <div class="testimonial-item">
           <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-          <h3>Eva</h3>
+          <h3>Nana</h3>
           <h4>IT Officer Cal Bank</h4>
           <p>
             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
